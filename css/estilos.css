@@ -1,0 +1,297 @@
+*{margin: 0px; padding: 0px;}
+/*{border: 1px solid #FF0000}
+
+/* Estilos Aplicados a la Cabecera */
+header{height: 70px;
+    position: relative;
+    background-color: #A3A656;}
+#flecha{
+    float:right;
+    width: 20px;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+#espana{
+    float:right;
+    margin-top: 20px;
+    margin-right: 12px;
+}
+#es{
+    float:right;
+    font-family: "Inter";
+    font-size: 14px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+#cuenta{
+    float:right;
+    font-family: "Inter";
+    font-size: 14px;
+    margin-top: 25px;
+    margin-right: 45px;
+}
+#user{
+    width: 50px;
+    position: absolute;
+    top: 8px;
+    right: 240px;
+}
+nav ul{
+    font-family: "Inter";
+    font-style: normal; 
+    font-size: 16px;
+    text-align: left;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+nav ul li{
+    display: inline-block; 
+    list-style-type: none; 
+    margin-right: 30px;
+    margin-top: 5px;
+}
+nav ul li:hover{color: #FFFF00}
+
+/* Estilos Aplicados a la Sección donde sale el nombre de la Página */
+.contenedor{
+    position: relative;
+    background-image: url(../imagenes/main.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 667px;
+}
+h1{
+    font-family: "Romanesco";
+    font-weight: normal;
+    font-size: 96px;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+h2{
+    font-family: "Inter";
+    font-weight: bolder;
+    font-size: 32px;
+    position: absolute;
+    left: 200px;
+    top: 350px;
+}
+h3{
+    font-family: "Inter";
+    font-weight: bolder;
+    font-size: 32px;
+    position: absolute;
+    left: 200px;
+    top: 390px;
+}
+/* Estilos Aplicados a la Sección de Reservación */
+.reservas{
+    height: 100px;
+    position: relative;
+    top: -4px;
+    background-color: #F2F6F6;
+    font-family: "Inter";
+    font-size: 16px;
+}
+#citas_reserva{
+    position: relative;
+    text-align: center;
+    top: 30px;
+}
+.ingresa_datos{
+    font-family: "Inter";
+    font-size: 16px;
+    margin-top: -10px;
+    margin-left: 20px;
+    width: 250px;
+    height: 60px;
+    border: 1px none #FFFFFF;
+    border-radius: 15px 15px 15px 15px;
+}
+::placeholder{
+    color: #9E9A9A;
+}
+
+/* Estilos Aplicados a la Sección de los Tratamientos */
+.sec_tratamiento{
+    height: 650px;
+    position: relative;
+    background-color: #FFFFFF;
+    top: -4px;
+}
+.tratamientos ul{
+    position: relative;
+    text-align: center;
+    font-family: "Inter";
+    top: 100px;
+}
+.tratamientos li{
+    display: inline-block;
+    margin: 2px;
+}
+.masajes{
+    font-weight: bolder;
+    font-size: 32px;
+    top: 40px;
+    margin: 62.5px;
+    border: 25px dashed #A3A656;
+    border-radius: 15px 15px 0 0;
+    background-color: #A3A656;
+    box-sizing: content-box;
+    height: 40px; width: 300px;
+    color: #FFFFFF;
+    margin-top: -2px;
+}
+.fotomasaje{
+    position: relative;
+    text-align: center;
+    top: -65px;
+}
+.desmasaje{
+    position: relative;
+    text-align: left;
+    font-size: 16px;
+    margin-top: -110px;
+    margin-left: 60px;
+    line-height: 130px;
+}
+.precio{
+    position: relative;
+    text-align: left;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: -40px;
+    margin-left: 70px;
+}
+.boton{
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: 2px none #A3A656;
+    border-radius: 35px;
+    background-color: #A3A656;
+    box-sizing: content-box;
+    height: 40px; width: 140px;
+    margin-top: -40px;
+    margin-left: 270px;
+    line-height: 40px;
+}
+.boton:hover{background-color:#384001}
+
+/* Estilos Aplicados a la Sección de las Membresías */
+
+.sec_membresias{
+    height: 770px;
+    position: relative;
+    background-color: #F2F6F6;
+}
+.circulo{
+    position: relative;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 50%;
+    width: 233px;
+    height: 233px;
+    border: 12px solid #384001;
+    margin-top: -300px;
+    margin-left: 30px;
+}
+.tpmembresia{
+    position: absolute;
+    margin-top: -190px;
+    margin-left: -50px;
+}
+#titulosocio{
+    position: relative;
+    text-align: center;
+    font-family: "Inter";
+    font-weight: bolder;
+    font-size: 32px;
+    top: 30px;
+}
+.tipos ul{
+    position: relative;
+    text-align: center;
+    font-family: "Inter";
+    top: 360px;
+}
+.tipos li{
+    display: inline-block;
+    margin: 70px;
+}
+.categoria{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.btnCondiciones{
+    color: #FFFFFF;
+    background-color: #A3A656;
+    box-sizing: content-box;
+    height: 50px; width: 300px;
+    border: 2px none #A3A656;
+    border-radius: 35px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.btnCondiciones:hover{background-color:#384001}
+.incluye{
+    text-align: left;
+    font-family: "Inter";
+    font-weight: normal;
+    font-size: 14px;
+    margin-top:  30px;
+    line-height: 0px;
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+
+/* Estilos Aplicados al Pie de Página */
+.footer{
+    height: 97px;
+    position: relative;
+    background-color: #384001;
+}
+.footer ul{
+    font-size: 16px;
+    color: #A3A656;
+    position: absolute;
+    top: 30px;
+}
+.footer ul li{
+    display: inline-block; 
+    list-style-type: none; 
+    margin-right: 130px;
+    margin-top: 10px;
+}
+.footer p{
+    font-family: "Inter";
+    color: #A3A656;
+    font-size: 16px;
+    position: absolute;
+    top: 40px;
+    right: 280px;
+}
+footer p:hover{color: #FFFF00}
+#face{
+    float:right;
+    margin-top: 25px;
+    margin-right: 220px;
+}
+#twitter{
+    float:right;
+    margin-top: 32px;
+    margin-right: -135px;
+}
+#youtube{
+    float:right;
+    margin-top: 32px;
+    margin-right: -230px;
+}
